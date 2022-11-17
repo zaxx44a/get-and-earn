@@ -101,6 +101,14 @@ You can now access the server at http://localhost:8000
     password: password
 
 
+# Unit Testing
+
+**execute this command to run Unit Testing in Sail & Docker **
+    ./vendor/bin/sail artisan test
+
+**execute this command to run Unit Testing in Local **
+    php artisan test
+
 # Docker Configuration
 
 you can edit port forwarding with your suitable port for your device in **.env** file:
