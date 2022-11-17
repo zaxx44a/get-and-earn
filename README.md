@@ -104,9 +104,11 @@ You can now access the server at http://localhost:8000
 # Unit Testing
 
 **execute this command to run Unit Testing in Sail & Docker **
+
     ./vendor/bin/sail artisan test
 
 **execute this command to run Unit Testing in Local **
+
     php artisan test
 
 # Docker Configuration
